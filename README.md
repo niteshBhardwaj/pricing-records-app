@@ -2,7 +2,7 @@
 
 This is a web application for managing pricing records for retail stores. It allows users to upload and persist pricing feeds from retail stores using CSV files which contain Store ID, SKU, Product Name, Price, and Date. Users can also search for pricing records using various criteria and edit/save changes to any record.
 
-Inline-style:
+Screenshots:
 ![alt text](https://github.com/niteshBhardwaj/pricing-records-app/blob/main/screenshots.gif "Screenshots")
 
 ## Getting Started
