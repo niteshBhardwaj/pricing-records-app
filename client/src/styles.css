@@ -1,0 +1,90 @@
+
+.pricing-record-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pricing-record-form label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-record-form input {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.pricing-record-form button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.pricing-record-form button:hover {
+  background-color: #0069d9;
+}
+.pricing-record-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+.pricing-record-table th,
+.pricing-record-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.pricing-record-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.pricing-record-table td {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.pricing-record-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.pricing-record-table button {
+  margin-right: 5px;
+  padding: 8px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pricing-record-table button:hover {
+  background-color: #0062cc;
+}
+
+.upload-form, .search-form {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: #d8000c; 
+  padding: 10px;
+  margin-bottom: 15px; 
+  border-radius: 3px;
+  font-weight: bold;
+}

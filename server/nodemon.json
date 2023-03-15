@@ -1,0 +1,10 @@
+{
+  "watch": ["src", "tsconfig.json", ".env", "nodemon.json"],
+  "ext": "js,ts,json",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "ts-node -r tsconfig-paths/register --transpile-only src/server",
+  "env": {
+    "NODE_DEBUG": 9230,
+    "NODE_ENV": "development"
+  }
+}
