@@ -3,7 +3,7 @@
 This is a web application for managing pricing records for retail stores. It allows users to upload and persist pricing feeds from retail stores using CSV files which contain Store ID, SKU, Product Name, Price, and Date. Users can also search for pricing records using various criteria and edit/save changes to any record.
 
 Inline-style:
-![alt text](https://github.com/niteshBhardwaj/pricing-records-app/raw/main/screenshots.png "Screenshots")
+![alt text](https://github.com/niteshBhardwaj/pricing-records-app/blob/main/screenshots.gif "Screenshots")
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ The application is divided into two main components: the client-side and the ser
 
 The application uses the following technologies:
 
-* React.js for the front-end
+* React.js with Typescript for the front-end
 * Node.js with TypeScript for the back-end
 * Express.js as the web framework for the back-end
 * MongoDB for data persistence (currently used in-memory object storage)
